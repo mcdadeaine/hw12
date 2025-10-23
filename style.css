@@ -31,39 +31,51 @@ body{
 }
 
 .flex{
-  
+  display: flex;
+  height: 100px;
 }
 
 .infl {
-  
+  display: inline-flex;
 }
 
 .start {
-
+justify-content: flex-start;
+align-items: flex-start;
 }
 
 .end {
-
+justify-content: flex-end;
+align-items: flex-end;
 }
 
 .center {
-
+justify-content: center;
+align-items: center;
 }
 
 .around {
-
+justify-content: space-around;
+align-items: baseline;
 }
 
 .between {
-
+justify-content: space-between;
+align-items: stretch;
 }
 
 .side {
-
+/*flex-grow: 1;
+flex-shrink: 2;
+flex-basis: 80px;*/
+  flex: 1, 2, 80px;
 }
 
 .middle {
-
+/*flex-grow: 2;
+flex-shrink: 1;
+flex-basis: 40px;*/
+  flex: 1, 2, 40px;
 }
 
 
