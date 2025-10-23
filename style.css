@@ -28,6 +28,7 @@ body{
   margin: 10px 0;
   background: #e8e4e6;
   height: 150px;
+  flex-wrap: wrap;
 }
 
 .flex{
@@ -42,26 +43,31 @@ body{
 .start {
 justify-content: flex-start;
 align-items: flex-start;
+align-content: flex-start;
 }
 
 .end {
 justify-content: flex-end;
 align-items: flex-end;
+align-content: flex-end;
 }
 
 .center {
 justify-content: center;
 align-items: center;
+align-content: center;
 }
 
 .around {
 justify-content: space-around;
 align-items: baseline;
+align-content: space-around;
 }
 
 .between {
 justify-content: space-between;
 align-items: stretch;
+align-content: space-between;
 }
 
 .side {
